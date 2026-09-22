@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="বাংলা ভাষায় ব্যবহারযোগ্য AI prompt-এর একটি ছোট সংগ্রহ।">
+  <title>Bangla Prompts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="./">Bangla Prompts</a>
+      <a class="github-link" href="https://github.com/toolsmlai-web/banglaprompts" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">AI prompt library</p>
+        <h1>বাংলায় আরও ভালো ফলাফল পান</h1>
+        <p class="hero-copy">লেখা, পড়াশোনা, ব্যবসা ও সৃজনশীল কাজের জন্য প্রস্তুত prompt কপি করে ব্যবহার করুন।</p>
+        <div class="search-wrap">
+          <label class="sr-only" for="search">Prompt খুঁজুন</label>
+          <input id="search" type="search" placeholder="Prompt খুঁজুন…" autocomplete="off">
+        </div>
+      </div>
+    </section>
+
+    <section class="container content" aria-labelledby="prompt-heading">
+      <div class="section-heading">
+        <h2 id="prompt-heading">জনপ্রিয় Prompt</h2>
+        <span id="result-count" class="result-count" aria-live="polite"></span>
+      </div>
+      <div id="prompt-grid" class="prompt-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>কোনো prompt পাওয়া যায়নি। অন্য শব্দ দিয়ে চেষ্টা করুন।</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Bangla Prompts</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
