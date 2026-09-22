@@ -1,6 +1,31 @@
-# Ignore local/system files
-AppData/
-Thumbs.db
-.DS_Store
-*.tmp
-*.log
+# Bangla Prompts
+
+A minimal static website for a Bengali AI prompt library.
+
+## Run locally
+
+- Open `index.html` directly in a browser, or
+- Serve the project with a static file server such as:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+## Deploy on Netlify
+
+1. Import this repo in Netlify.
+2. Use the `master` branch.
+3. Keep build command blank.
+4. Set publish directory to `.`.
+5. Deploy.
+
+The repository includes a `netlify.toml` configuration file for static-site hosting.
+
+## Project structure
+
+- `index.html` — main page
+- `styles.css` — design and layout
+- `script.js` — prompt data and interactive search/copy functionality
+- `netlify.toml` — Netlify deployment configuration
